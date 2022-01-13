@@ -18,7 +18,7 @@ Json Server: `npm install -g json-server`
 
 # How to configure this project to run? 🤔
 
-#### You need to veriry when is your IpAdrress of your Computer:
+#### You need to veriry wich is your IpAdrress of your Computer:
 
 ↓↓↓↓                                                                                     
 
@@ -36,7 +36,7 @@ MacOS: In terminal type `ipconfig getifaddr en1` (to Ethernet of cable) OR `ipco
 
 Inside of: `./src/services/api.ts` you do configure your baseURL - `'http://YOURIPADRESS:3333'`.
 
-(Exemple:: `baseURL: 'http://192.168.0.10:3333'`)
+(Exemple: `baseURL: 'http://192.168.0.10:3333'`)
 
 # How to start the project? 🤔
 
