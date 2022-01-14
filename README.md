@@ -3,6 +3,7 @@ This is a portfolio of an application that has the idea of helping people rememb
 
 # Getting Started 💻
 
+### Requires [Node 12 LTS](https://nodejs.org/en/download/) or Later.
 #### You need to install with NPM or YARN:
 
 ↓↓↓↓
