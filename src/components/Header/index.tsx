@@ -7,7 +7,7 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 //outra estratégia para o resolver o problema de area do iphone por ex
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
-import UserImg from '../assets/vithor.png';
+import UserImg from '../../assets/vithor.png';
 import { styles } from './styles';
 
 export function Header(){
