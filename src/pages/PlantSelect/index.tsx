@@ -2,20 +2,18 @@ import React, { useEffect, useState } from 'react';
 import {
     View, 
     Text,
-    StyleSheet,
     FlatList,
     ActivityIndicator
 } from 'react-native';
-import colors from '../styles/colors';
-import { Header } from '../components/Header';
-import fonts from '../styles/fonts';
-import { EnvironmentButton } from '../components/EnvironmentButton';
-//import { FlatList } from 'react-native-gesture-handler';
-import api from '../services/api';
-import { PlantCardPrimary } from '../components/PlantCardPrimary';
-import { Load } from '../components/Load';
-import { NavigationContainer, useNavigation } from '@react-navigation/native';
-import { PlantProps } from '../libs/storage';
+import colors from '../../styles/colors';
+import { Header } from '../../components/Header';
+import { EnvironmentButton } from '../../components/EnvironmentButton';
+import api from '../../services/api';
+import { PlantCardPrimary } from '../../components/PlantCardPrimary';
+import { Load } from '../../components/Load';
+import { useNavigation } from '@react-navigation/native';
+import { PlantProps } from '../../libs/storage';
+import { styles } from './styles'
 
 interface EnviromentProps{
     key: string;
@@ -159,43 +157,3 @@ export function PlantSelect(){
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    container:{
-        flex: 1,
-        backgroundColor: colors.background
-    },
-
-    header: {
-        paddingHorizontal:30
-    },
-
-    title: {
-        fontSize: 17,
-        color: colors.heading,
-        fontFamily: fonts.heading,
-        lineHeight: 20,
-        marginTop: 15
-    },
-
-    subtitle: {
-        fontFamily: fonts.text,
-        fontSize: 17,
-        lineHeight:20,
-        color: colors.heading
-    },
-
-    environmentList: {
-        height: 40,
-        justifyContent: 'center',
-        paddingBottom: 5,
-        marginLeft: 40,
-        marginVertical:32
-    },
-
-    plants: {
-        flex: 1,
-        paddingHorizontal: 32,
-        justifyContent: 'center'
-    }
-});

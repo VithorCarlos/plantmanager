@@ -4,17 +4,13 @@ import {
     Text, 
     Image, 
     TouchableOpacity,
-    StyleSheet,
-    Dimensions,
     View
 } from 'react-native';
 
-import wateringImg from '../assets/watering.png';
-import colors from '../styles/colors';
+import wateringImg from '../../assets/watering.png';
 import {Feather} from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/core';
-import fonts from '../styles/fonts';
-
+import { styles } from './styles'
 
 export function Welcome(){
     //É com ele que conseguimos fazer a navegação
@@ -58,54 +54,3 @@ export function Welcome(){
         </SafeAreaView>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: 'center'
-        
-    },
-
-    wrapper: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'space-around',
-        paddingHorizontal:20
-    },
-
-    title: {
-        fontSize:28,
-        textAlign: 'center',
-        color: colors.heading,
-        marginTop: 42,
-        fontFamily: fonts.heading,
-        lineHeight: 34
-    },
-
-    subtitle: {
-        textAlign: 'center',
-        fontSize: 18,
-        paddingHorizontal: 20,
-        color: colors.heading,
-        fontFamily: fonts.text
-    },
-
-    image: {
-        height: Dimensions.get('window').width * 0.8,
-    },
-
-    button: {
-        backgroundColor: colors.green,
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderRadius: 16,
-        marginBottom: 20,
-        height: 56,
-        width: 56
-    },
-
-    buttonIcon: {
-        color: colors.white,
-        fontSize: 32
-    }
-})
