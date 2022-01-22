@@ -1,16 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import {
-    StyleSheet,
     Text,
     Image,
     View
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import colors from '../styles/colors';
 //outra estratégia para o resolver o problema de area do iphone por ex
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
-import UserImg from '../assets/vithor.png';
-import fonts from '../styles/fonts';
+import UserImg from '../../assets/vithor.png';
+import { styles } from './styles';
+
 export function Header(){
     const [userName, setUsername] = useState<string>();
 
@@ -37,32 +36,3 @@ export function Header(){
     )
 
 }
-
-const styles = StyleSheet.create({
-    container: {
-        width: '100%',
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        marginTop: getStatusBarHeight(),
-       
-    },
-    
-    image: {
-        width: 70,
-        height: 70,
-        borderRadius: 35
-    },
-
-    greeting: {
-        fontSize: 32,
-        color: colors.heading,
-        fontFamily: fonts.text
-    },
-    userName: {
-        fontSize: 32,
-        color: colors.heading,
-        fontFamily: fonts.heading,
-        lineHeight: 40
-    }                
-});
