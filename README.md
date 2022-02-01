@@ -3,6 +3,12 @@ This is a portfolio of an application that has the idea of helping people rememb
 
 # Getting Started 💻
 
+# Project Ideia
+
+<div>
+  <img height=400em src=https://lh3.googleusercontent.com/EJIahwuDWMxnmIvX6BzFkaP0Rlb_jy0B-Rb9WeQ1Stpx2vrWjh-K8YxXdnDijumNn0l_eJsyO0jKPUvKYHy_YRQc_RkscX9TvuPMovYN_joMIu8G8-DGKvJmNmoZqJRb-fAojX0UcUKKC40KPS7fpl3xoYSEFuGl42xi0mxEKaZwoNpm05qUxgEBRb8OJQUuRj7NiIcg92R9WAksvne21Uxr8urMmO0VhPG1MADsJPuPiIY7z-_dZvuOEF2-enH15oc6BvG9oC3lOBlnE6K71-mkTlMHKfjqg5iPkBRV0HXeFgb8bXM_uAsu8karQBIF8eQ8tsjyU3QHAGlqcyo96stnynKQ43PHkF-7arBMqGIKCmqR8fIFlk_eWQpxMvlU8RxM-hXwMV0z3hjXMx_DgpWCGSIVt0uRQLV_YPJ5f9DHXl45kRoFz_P6F2NZCCW1SV9QXZQ-M-LbOb9BDHmmuMH7Ws8c7nF3vPtVVXp-9EvooBQikR8Bs8H56Fqr8rZbYSE90kNWtWRHJRgzKz25PP6v9z1JvnsaxUBc3drBr1IMHyu5zrUimCTYvGKi9n1aC3TojAErvY3_YGQGSmi5iOsgJvMJEXVxjD4UQ4haJ_zCw86uhn3qBkvFY6KEmavBSEFCWg_b4CtUGsEXIfts31kp7_f8AH-acEnQz33oQ3-TnwRuKoecmr-y1D4IHoAhy99cSnFmkQ39nhhWT6-B4ag6Zw=w1668-h938-no?authuser=0?username=VithorCarlos&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+</div>
+
 ### Requires [Node 12 LTS](https://nodejs.org/en/download/) or Later.
 #### You need to install with NPM or YARN:
 
