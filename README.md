@@ -4,7 +4,7 @@ This is a portfolio of an application that has the idea of helping people rememb
 # Project Ideia
 
 <div>
-  <img src="https://i.ibb.co/sb9w1cs/Plant-Manager.jpg"/>
+  <img width="100%" src="https://i.ibb.co/sb9w1cs/Plant-Manager.jpg"/>
 </div>
 
 # Getting Started 💻
